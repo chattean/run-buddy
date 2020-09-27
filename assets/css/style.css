@@ -239,6 +239,18 @@ border-color: #39a6b2;
 .trainer-bio p{
     font-size: 17px;
 }
+
+/* Service Plans style start */
+.service-grid-container {
+    display: grid;
+  }
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
 /* REACH OUT STYLES START */
 .contact {
     background: #024e76;
@@ -383,33 +395,33 @@ border-color: #39a6b2;
   }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-      /* this will be applied on any screen smaller than 575px */
-      .hero-form button {
-        width: 100%;
-      }
-    
-      .section-title {
-        width: 95%;
-      }
-    
-      .intro p {
-        width: 100%;
-      }
-    
-      .trainer {
-        flex: 0 100%;
-      }
-    
-      .contact-info {
-        text-align: center;
-      }
-    
-      .contact-info > * {
-        flex: 0 100%;
-      }
-      .contact-form {
-        order: 3;
-      }
+@media screen and (max-width: 575px) {
+    /* this will be applied on any screen smaller than 575px */
+    .hero-form button {
+    width: 100%;
+    }
+
+    .section-title {
+    width: 95%;
+    }
+
+    .intro p {
+    width: 100%;
+    }
+
+    .trainer {
+    flex: 0 100%;
+    }
+
+    .contact-info {
+    text-align: center;
+    }
+
+    .contact-info > * {
+    flex: 0 100%;
+    }
+    .contact-form {
+    order: 3;
+    }
       
   }
