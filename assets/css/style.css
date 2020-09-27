@@ -73,6 +73,16 @@ footer a{
 section {
     padding: 60px;
   }
+.section-title{
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding:20px;
+    text-align:center;
+    margin: 0 auto 35px auto;
+    width:50%;
+}
+
 /* Section Style End*/
   /* Hero Style Start */
 .hero{
@@ -130,18 +140,6 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
-.intro{
-    text-align: center;
-}
-
-.section-title{
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
   
 .primary-border {
 border-color: #fce138;
@@ -157,10 +155,10 @@ border-color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
   }
 
 .steps{
-    text-align:center;
     background: #fce138;
   }
 
@@ -186,9 +184,8 @@ border-color: #39a6b2;
   .steps span {
     font-size: 38px;
   }
-  .trainers {
-    text-align: center;
-  }
+  /* .trainers {
+  } */
   .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -206,12 +203,7 @@ border-color: #39a6b2;
     float: left;
     width: 65%;
   }
-.text-left{
-    text-align:left;
-}
-.text-right{
-    text-align:right;
-}
+
 .trainer-bio h3{
     font-size:32px;
     margin-bottom: 8px;
@@ -227,7 +219,6 @@ border-color: #39a6b2;
 }
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
   }
 .contact h2, h3{
@@ -260,4 +251,13 @@ border-color: #39a6b2;
 .contact-info a {
     color: #fce138;
 }
-      
+/*Utility Classes*/
+.text-left{
+    text-align:left;
+}
+.text-right{
+    text-align:right;
+}
+.flex-row{
+    display:flex;
+}
